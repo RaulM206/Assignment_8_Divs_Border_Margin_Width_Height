@@ -16,6 +16,7 @@
 
 #left-container {
     background-color: var(--left-container);
+    height: 160%;
     color: white;
 
 }
@@ -23,10 +24,21 @@
 
 #left-top-container {
     background-color: var(--left-top-container);
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 40%;
+    width: 45%;
 }
 
 #left-bottom-container {
     background-color: var(--left-top-container);
+    height: 22%;
+    width: 75%;
+    margin-top: 20%;
+    margin-left: 24%;
+    padding-top: 1px;
+    
+    
 
 }
 
@@ -35,12 +47,18 @@
     background-color: var(--left-inner-container);
     display: inline-block;
     text-align: center;
+    margin-top: 28%;
+    padding: 10%;
+    width: 75%;
 
 
 }
 
 #container-b {
     background-color: var(--left-inner-container);
+    width: 25%;
+    margin-top: 40%;
+    margin-left: 67%;
     color: black;
 }
 
@@ -48,39 +66,60 @@
 
 #right-container {
     background-color: var(--right-container);
+    height: 160%;
     color: white;
 
 }
 
 #right-top-container {
     background-color: var(--right-top-container);
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 30%;
+    height: 26%;
 
 }
 
 #right-middle-container {
     background-color: var(--right-top-container);
+    width: 75%;
+    margin-top: 3%;
 
 }
 
 #right-bottom-container {
     background-color: var(--right-top-container);
-
+    margin-top: 35%;
+    margin-left: 5%;
+    width: 30%;
+    height: 27%;
 }
 
 #container-c {
-
-
     background-color: var(--right-inner-container);
     color: black;
+    margin-left: 25%;
+    height: 35%;
+    width: 50%;
 }
 
 #container-d {
     background-color: var(--right-inner-container);
     color: black;
+    margin-left: 5%;
+    width: 75%;
+    text-align: right;
 }
 
 #container-e {
     background-color: var(--right-inner-container);
     color: black;
+    text-align: right;
+    width: 20%;
+    margin-left: 60%;
+    height: 20%;
+    padding-right: 10px;
+    padding-top: 22px;
+    
 
 }
